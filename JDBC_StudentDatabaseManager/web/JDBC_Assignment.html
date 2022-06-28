@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JDBC_Assignment</title>
+</head>
+
+<style>
+	h3, p{ text-align: center;}
+	table, th, td, caption{
+  		border: 1px solid black;
+  		border-collapse: collapse;
+	}
+	table, th, td{
+  		width: 300px;
+	}
+	table.Table {
+  		margin-left: auto; 
+  		margin-right: auto;
+	}
+	button {
+  		margin:auto;
+  		display:block;
+	}
+</style>
+
+<body>
+	<form method="post" action="JDBC_Assignment">
+		<h3>Database Manager</h3>
+		<table class="Table">
+			 <caption>Student Details</caption>
+  			<tr>
+  				<td></td>
+    			<td style="text-align:center">USN</td>
+    			<td style="text-align:center">Name</td>
+    			<td style="text-align:center">CGPA</td>
+    			<td style="text-align:center">Contact</td>
+    			<td style="text-align:center">Where Condition</td>
+  			</tr>
+  			<tr>
+  				<td>INSERT</td>
+  				<td><input type="text" name="I_USN"></td>
+  				<td><input type="text" name="I_Name"></td>
+  				<td><input type="text" name="I_CGPA"></td>
+  				<td><input type="text" name="I_Contact"></td>
+  				<td style="text-align:center">---</td>
+  			</tr>
+  			<tr>
+  				<td>UPDATE</td>
+  				<td><input type="text" name="U_USN"></td>
+  				<td><input type="text" name="U_Name"></td>
+  				<td><input type="text" name="U_CGPA"></td>
+  				<td><input type="text" name="U_Contact"></td>
+  				<td><input type="text" name="U_where"></td>
+  			</tr>  			
+		</table> <br><br>
+                    <p> Choose an Operation:<input type="radio" name = "r1" value="Insert"> Insert
+                        <input type="radio" name="r1" value="Update"> Update</p>
+		<div>
+			<button>Submit</button>
+		</div>
+	</form>
+</body>
+</html>

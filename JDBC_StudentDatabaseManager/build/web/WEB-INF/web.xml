@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <display-name>Servlet_Assignment</display-name>
+    <welcome-file-list>
+        <welcome-file>JDBC_Assignment.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>JDBC_Assignment</servlet-name>
+        <servlet-class>JDBC_Assignment</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>JDBC_Assignment</servlet-name>
+        <url-pattern>/JDBC_Assignment</url-pattern>
+    </servlet-mapping>
+</web-app>
